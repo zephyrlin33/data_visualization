@@ -1,0 +1,15 @@
+# Codebook for Pharmaceutical Products Dataset
+
+This dataset comprises records of pharmaceutical products, detailing their registration information, product names, validity dates, applicant details, and ingredients.
+
+| Variable Name | Data Type | Description                                                                          |
+|------------|------------|------------------------------------------------|
+| 查驗登記證號  | String    | The unique registration number assigned to the pharmaceutical product.               |
+| 中文品名      | String    | The Chinese name of the product.                                                     |
+| 英文品名      | String    | The English name of the product.                                                     |
+| 有效日期      | Date      | The expiration date of the product's registration, formatted as YYMMDD.              |
+| 發證日期      | Date      | The issuance date of the product's registration, formatted as YYMMDD.                |
+| 申請商名稱    | String    | The name of the applicant company that registered the product.                       |
+| 申請商電話    | String    | The contact phone number of the applicant company.                                   |
+| 申請商地址    | String    | The address of the applicant company.                                                |
+| 成分          | String    | A list of ingredients contained in the product, separated by double semicolons (;;). |
